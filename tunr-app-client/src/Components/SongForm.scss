@@ -1,0 +1,43 @@
+$font-color-1: 19323c;
+$song-font-color: 5d7e8b;
+$button-border-color: A93F55;
+#form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin-left: 40px;
+}
+#form-header {
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 800;
+  color: $font-color-1;
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 20px;
+  label {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 800;
+    color: rgb(24, 24, 133);
+    text-align: left;
+    font-size: 12px;
+  }
+  input {
+    margin-bottom: 5px;
+    height: 25px;
+  }
+  button {
+    background-color: rgb(169, 63, 85);
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 12px;
+  }
+}
